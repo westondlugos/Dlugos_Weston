@@ -1,0 +1,11 @@
+# Cat by Weston Dlugos
+print('                   _')
+print('                  / )')
+print('                 ( (')
+print('  A.-.A  .-...-.  ) ) ')
+print(' /,  , \/       \/ / ')
+print('=\ t   ;=         / ')
+print('  \___/          / ')
+print('      \_    ___! \ ')
+print('        !! !   \\ \ ')
+print('       ((,_!   ((,_\ ')
