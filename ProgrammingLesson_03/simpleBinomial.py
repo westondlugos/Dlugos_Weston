@@ -1,3 +1,4 @@
+
 print("Hi I'm the simple binomial calculator, I solve equations in the form of Ax + B = C")
 
 variable = input("Put variable here:")
