@@ -1,0 +1,18 @@
+def compoundInterest(loanAmount):
+    output = "{:10.2}".format(loanAmount)
+    return output
+
+
+Principal = float(input("Enter the principal here:"))
+
+
+rate = float(input("enter rate of interest:"))
+
+num = float(input("enter the number of times per year that the interest is compounded:"))
+
+time = float(input("Enter the amount of years:"))
+
+loanAmount = Principal * (1 + (rate/num))**(num * time)
+
+print(compoundInterest(loanAmount))
+

@@ -17,7 +17,7 @@ def totalFormat(total):
 
 item = input("Please enter item 1:")
 
-price = float(input("Plese enter the price of the:"))
+price = float(input("Plese enter the price:"))
 
 item2 = input("Please enter item 2:")
 
@@ -25,9 +25,10 @@ price2 = float(input("Please enter the price:"))
 
 item3 = input("Please enter item 3:")
 
-price3 = float(input("Please enter the price of the:"))
+price3 = float(input("Please enter the price:"))
 
 subtotal = price + price2 + price3
+
 tax = subtotal * 0.07
 total = tax + subtotal
 

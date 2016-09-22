@@ -1,4 +1,5 @@
 
+
 def idcardFormat(idCard,idCard2):
     print("{:2}{:>12}{:>19}{:>2}".format("*",idCard,idCard2,"*"))
 
