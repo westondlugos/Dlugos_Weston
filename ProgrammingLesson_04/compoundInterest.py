@@ -1,6 +1,7 @@
 def compoundInterest(loanAmount):
     output = "{:10.2}".format(loanAmount)
     return output
+    
 
 
 Principal = float(input("Enter the principal here:"))
