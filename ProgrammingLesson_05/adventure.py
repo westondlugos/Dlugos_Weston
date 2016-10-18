@@ -1,4 +1,5 @@
 
+
 def adventure():
     choice1 = input("In your story would you like to be the hero or the villain?")
     if choice1 == "hero" or choice1 == "villain":
