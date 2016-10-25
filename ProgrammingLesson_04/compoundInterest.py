@@ -1,7 +1,6 @@
-def compoundInterest(loanAmount):
-    output = "{:10.2}".format(loanAmount)
-    return output
+
     
+
 
 
 Principal = float(input("Enter the principal here:"))
@@ -13,7 +12,11 @@ num = float(input("enter the number of times per year that the interest is compo
 
 time = float(input("Enter the amount of years:"))
 
-loanAmount = Principal * (1 + (rate/num))**(num * time)
 
-print(compoundInterest(loanAmount))
+def compoundInterest():
+    loanAmount = (Principal * (1 + (rate/num))**(num * time))/(time * 12 )
+    output = "{:.2f}".format(loanAmount)
+    return output
+
+print("$",compoundInterest())
 
