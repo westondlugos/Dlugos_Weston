@@ -3,6 +3,7 @@
 
 
 
+
 def recieptFormat(item,price):
     print("{:1}{:>16}{:>9}{:>7.2f}".format("*",item,"........",price))
 
