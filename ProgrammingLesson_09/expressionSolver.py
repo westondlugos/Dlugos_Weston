@@ -1,4 +1,5 @@
 
+
 ex = input("Enter a mathemathical expression:")
 equation = ex.split(" ")
 i = 0
