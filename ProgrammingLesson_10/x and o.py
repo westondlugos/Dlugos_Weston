@@ -6,13 +6,16 @@ for i in range(0,4):
     for j in range(0,4):
         switch = random.randint(0,1)
         if switch == 1:
-            XandO.append("X")
+            XandO[i].append("X")
         else:
-            XandO.append("O")
-
+            XandO[i].append("O")
+output =""
 for values in XandO:
-    output = ""
+    output += "\n"
     for value in values:
-        output = output + value
-    print(output)
+        output += value + "\t"
+
+print(output)
+
+print(XandO)
     

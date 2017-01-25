@@ -10,8 +10,7 @@ for i in range(0,4):
     wordsList.append([])
     for j in range(0,4):
         wordsList[i].append(spList[spot])
-        output = output + wordsList[i][j] + "\t
-        "
+        output = output + wordsList[i][j] + "\t"
         spot = spot + 1
     print(output)
 

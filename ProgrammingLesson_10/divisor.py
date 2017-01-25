@@ -1,3 +1,4 @@
+
 import random
 numsList = []
 
@@ -22,6 +23,8 @@ for nums in numsList:
     for num in nums:
         if num % div == 0:
             count += 1
+
+print(numsList)
 
 print("There are", count, "numbers divisible by", div, "in the list")
     
