@@ -1,3 +1,4 @@
+
 import math
 
 class distance:
@@ -6,18 +7,17 @@ class distance:
         self.yOne = y1
         self.xTwo = x2
         self.yTwo = y2
-        distance = 0
+        self.distance = 0
     def setValues(self,newX1, newY1, newX2, newY2):
         self.xOne = newX1
         self.yOne = newY1
         self.xTwo = newX2
         self.yTwo = newY2
-        distance = 0
+        self.distance = 0
 
     def getMPH(self):
-        distance = math.sqrt((self.xTwo - self.xOne)*(self.xTwo - self.xOne)+(self.yTwo - self.
-                                                                              yOne)*(self.yTwo-yOne));
-        return distance
+        self.distance = math.sqrt((self.xTwo - self.xOne)*(self.xTwo - self.xOne)+(self.yTwo - self.yOne)*(self.yTwo-self.yOne));
+        return self.distance
     def getx1(self):
         return self.xOne
     def gety1(self):
