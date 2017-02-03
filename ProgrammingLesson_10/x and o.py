@@ -17,5 +17,5 @@ for values in XandO:
 
 print(output)
 
-print(XandO)
+
     

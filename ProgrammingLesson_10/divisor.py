@@ -7,10 +7,12 @@ for i in range(0,4):
     for j in range(0,4):
         numsList[i].append(random.randint(1,100))
 
+output = ""
+
 for nums in numsList:
-    output = ""
+    output += "\n"
     for num in nums:
-        output += str(num) + " "
+        output += str(num) + "\t"
 
 div = int(input("Please enter a number:"))
 
@@ -24,7 +26,7 @@ for nums in numsList:
         if num % div == 0:
             count += 1
 
-print(numsList)
+print(output)
 
 print("There are", count, "numbers divisible by", div, "in the list")
     
