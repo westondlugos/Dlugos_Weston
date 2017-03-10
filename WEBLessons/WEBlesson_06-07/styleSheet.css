@@ -1,0 +1,138 @@
+a {color: white;
+	position:absolute;
+	top: 37%;
+	left:72%;
+	font-size:10px;}
+	
+
+a:hover {color: green;
+		background-color:yellow;
+		}
+		
+p:first-letter {
+	font-weight: bold;
+	color:green;
+	border:red dashed 3px;
+	font-size: 30px;
+	
+}
+
+h1 {
+	text-align:center;
+	padding:50px;
+	border:red solid 3px;
+	background-color:pink;
+}
+#waldo1 {
+	position:absolute;
+	top:40px;
+	left:750px;
+	max-height:100px;
+	max-width:100px;
+}
+#waldo2 {
+	position:absolute;
+	top:40px;
+	left:1100px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink1 {
+	position:absolute;
+	top:100px;
+	left:100px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink2 {
+	position:absolute;
+	top:200px;
+	left:200px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink3 {
+	position:absolute;
+	top:300px;
+	left:300px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink4 {
+	position:absolute;
+	top:400px;
+	left:400px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink5 {
+	position:absolute;
+	top:500px;
+	left:500px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink6 {
+	position:absolute;
+	top:600px;
+	left:600px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink7 {
+	position:absolute;
+	top:700px;
+	left:700px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink8 {
+	position:absolute;
+	top:800px;
+	left:800px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink9 {
+	position:absolute;
+	top:900px;
+	left:900px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink10 {
+	position:absolute;
+	top:1000px;
+	left:1000px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink11 {
+	position:absolute;
+	top:1100px;
+	left:1100px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink12 {
+	position:absolute;
+	top:1200px;
+	left:1200px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink13 {
+	position:absolute;
+	top:1300px;
+	left:1300px;
+	max-height:100px;
+	max-width:100px;
+}
+#missingLink14 {
+	position:absolute;
+	top:1400px;
+	left:1400px;
+	max-height:100px;
+	max-width:100px;
+}
+
