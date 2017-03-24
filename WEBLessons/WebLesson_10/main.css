@@ -1,0 +1,62 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: 'Baloo Bhaina', cursive;
+    font-weight:bold;
+}
+
+#webTitle {
+    background-color: #76FF03;
+    padding: 20px;
+    text-align: center;
+    color: #FFFF00;
+    border: solid red 5px;
+}
+
+
+#topMenu {
+    margin:0px;
+    background:rebeccapurple;
+    color:red;
+}
+
+#topMenu li {
+    display:inline-block;
+    list-style:none;
+    padding:5px;
+
+}
+
+#website {
+    border:solid;
+
+}
+
+#box1 {
+    border:solid;
+    margin:10px;
+
+}
+#box2 {
+    border:solid;
+    margin:10px;
+}
+#box3 {
+    border:solid;
+    margin:10px;
+}
+#box4 {
+    border:solid;
+    margin:10px;
+}
+
+#hints {
+    color:white;
+}
+
+a {
+    color:#76FF03;
+    top:15px;
+    left:1000px;
+    position:absolute;
+}
