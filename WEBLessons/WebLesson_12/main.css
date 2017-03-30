@@ -1,0 +1,113 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: 'Baloo Bhaina', cursive;
+    font-weight:bold;
+}
+
+#webTitle {
+    background-color: #76FF03;
+    padding: 20px;
+    text-align: center;
+    color: #FFFF00;
+    border: solid red 5px;
+}
+
+
+#topMenu {
+    margin:0px;
+    background: -webkit-linear-gradient(left, rebeccapurple, purple);
+    color:red;
+}
+
+#topMenu li {
+    display:inline-block;
+    list-style:none;
+    padding:5px;
+    background:rebeccapurple;
+    -webkit-border-radius: 3px;
+
+}
+
+#topMenu li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+}
+
+#website {
+    border:solid;
+
+}
+
+#box1 {
+    border:solid;
+    margin:10px;
+    position:relative;
+    transition:0.5s;
+
+}
+
+#box2 {
+    border:solid;
+    margin:10px;
+    position:relative;
+    transition:0.5s;
+}
+#box3 {
+    border:solid;
+    margin:10px;
+    position:relative;
+    transition:0.5s;
+}
+
+#box3:hover {
+    border:solid;
+    margin:10px;
+    position:relative;
+    -webkit-transform: translate(0px,500px);
+}
+#box4 {
+    border:solid;
+    margin:10px;
+    position:relative;
+    transition:0.5s;
+}
+
+#box4:hover {
+    border:solid;
+    margin:10px;
+    position:relative;
+    -webkit-transform: translate(0px,500px);
+}
+
+#box2:hover {
+    border:solid;
+    margin:10px;
+    position:relative;
+    -webkit-transform: translate(0px,500px);
+}
+
+#box1:hover {
+    border:solid;
+    margin:10px;
+    position:relative;
+    -webkit-transform: translate(0px,500px);
+}
+
+#hints {
+    color:white;
+    padding: 5px;
+}
+
+
+a {
+    color:#76FF03;
+    top:15px;
+    left:50%;
+    position:absolute;
+    -webkit-transition: 0.5s;
+}
+
+a:hover {
+    -webkit-transform: translate(50px,200px);
+    color:yellow;
+}
