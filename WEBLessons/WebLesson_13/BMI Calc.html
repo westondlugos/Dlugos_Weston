@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calc</title>
+</head>
+<body>
+    <form>
+        <p>enter your height in inches</p>
+        Height: <input type = "text" id = "height" />
+        <p>enter your weight in pounds</p>
+        Weight: <input type = "text" id = "weight" />
+        <input type = "button" value = "Calculate BMI" onclick = "BMIcalc()">
+
+    </form>
+    <script type = "text/javascript">
+        function BMIcalc(){
+            var h = document.getElementById("height").value;
+            var w = document.getElementById("weight").value;
+            document.write("your BMI is:" + (w/(h*h))*703);
+        }
+
+
+
+    </script>
+
+</body>
+</html>
