@@ -8,10 +8,10 @@ function emailValidation(){
         alert("Email valid");
 }
 function passwordValidation(){
-    var y = document.forms.input.password.value;
+        var y = document.forms.input.password.value;
 
-    if( y.length < 6)
-        alert("password isn't valid");
-    else
-        alert("password valid");
+        if( y.length < 6)
+            alert("password isn't more than 6 letters");
+        else
+            alert("password valid");
 }
