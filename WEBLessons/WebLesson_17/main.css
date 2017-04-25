@@ -1,0 +1,20 @@
+#leftBox {
+    float:left;
+    border:5px solid green;
+    width:250px;
+    height:250px;
+    margin:5px;
+}
+
+#rightBox {
+    float:right;
+    border:5px solid yellow;
+    width:250px;
+    height:250px;
+    margin:5px;
+
+}
+
+#puck {
+    max-height:100px;
+}
